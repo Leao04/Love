@@ -1,8 +1,7 @@
 const sentence = document.getElementById("sentence");
 
 function aparecerFrase() {
-  const phrase = "Eu vou provar que um . é a estrutura do universo!";
-  sentence.textContent = phrase;
+  const phrase = "Meu sentimento mais puro é contigo. = phrase;
 }
 window.onload = aparecerFrase();
 
