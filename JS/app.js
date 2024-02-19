@@ -1,7 +1,8 @@
 const sentence = document.getElementById("sentence");
 
 function aparecerFrase() {
-  const phrase = "Meu sentimento mais puro é contigo. = phrase;
+  const phrase = "Eu vou provar que meu sentimento mais puro é por você.";
+  sentence.textContent = phrase;
 }
 window.onload = aparecerFrase();
 
