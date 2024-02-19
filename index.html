@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>O meu amorzinho é um docinho</title>
+  </head>
+
+  <body>
+    <head>
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+      <div>
+        <p id="sentence" class="sentenceClass"></p>
+      </div>
+    </head>
+    <main>
+      <div class="carrossel">
+        <div class="imagem fade">
+          <img src="IMG/uni.jpg" style="width: 100%" height="300px" />
+        </div>
+
+        <div class="imagem fade">
+          <img src="IMG/uni2.jpg" style="width: 100%" height="300px" />
+        </div>
+
+        <div class="imagem fade">
+          <img src="IMG/uni3.jpg" style="width: 100%" height="300px" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div class="alinharponto">
+        <span class="ponto" onclick="currentSlide(1)"></span>
+        <span class="ponto" onclick="currentSlide(2)"></span>
+        <span class="ponto" onclick="currentSlide(3)"></span>
+      </div>
+      <div>
+        <p class="sentenceClass2">
+          Bom, você deve estar se perguntando o que diabos está vendo aqui,
+          correto?
+        </p>
+        <h1 class="h1">Deixe-me esclarecer</h1>
+        <p class="sentenceClass2">
+          Você já pensou em algo que não pode ser desvisto, ou muito menos
+          recomeçado? Esse é o tamanho do meu amor por você!
+        </p>
+      </div>
+      <div>
+        <div class="imagem2">
+          <img src="IMG/ponto1.jpg" style="width: 100%" height="300px" />
+        </div>
+        <div class="imagem2">
+          <img src="IMG/ponto2.jpg" style="width: 100%" height="300px" />
+        </div>
+        <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+        <br />
+        <hr />
+      </div>
+      <div>
+        <p class="sentenceClass3">
+          Agora que compreendemos um pouco sobre o funcionamento da estrutura de
+          um ROMÂNTICO, permita-me demonstrar o potencial de criação gráfica de
+          um.
+        </p>
+        <br />
+        <h2 class="h2">EXIBIÇÃO RÁPIDA</h2>
+        <br />
+        <button id="button" class="buttonClass">Uivando pelo amor</button>
+        <audio id="myAudio" src="AUDIO/uivando.m4a"></audio>
+        <p id="demo" class="sentenceClass4"></p>
+        <br />
+        <br />
+        <div class="cartesiano">
+          <canvas
+          transition: transform 0.5s ease-out;
+            class="canvas"
+            id="myCanvas"
+            width="400"
+            height="500"
+            style="border: 1px solid #d3d3d3"
+          ></canvas>
+        </div>
+        <br />
+        <p id="demo3" class="sentenceClass5"></p>
+      </div>
+      <br />
+      <h3 class="amor"> Eu amo você MUITÃO</h3>
+    </main>
+    <footer>
+      <br />
+      <div class="footer">
+        <p class="sentenceClass6">Developed by Victor Leão Dal Rovere</p>
+      </div>
+    </footer>
+
+    <script src="JS/app.js"></script>
+  </body>
+</html>
